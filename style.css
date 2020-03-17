@@ -3,6 +3,21 @@ body {
     line-height: 1.8;
     color: #f5f6f7;
 }
+.hecho{
+    text-align: center;
+}
+.jesus-info{
+    margin-right: 10%;
+    text-align: justify;
+}
+
+.picture-of-jesus
+{
+    float:left;
+    margin-top: -5%;
+    margin-left: 10%;
+    margin-right: 5%;
+}
 p {
     font-size: 16px;
 }
@@ -10,21 +25,24 @@ p {
     margin-bottom: 45px;
 }
 .bg-1 {
-    background-color: #1abc9c; /* Green */
-    color: #ffffff;
+    background-color: #7fffd4; /* Green */
+    color: black;
 }
 .bg-2 {
-    background-color: #474e5d; /* Dark Blue */
-    color: #ffffff;
+    background-color: white; /* Dark Blue */
+    color: #474e5d;
 }
 .bg-3 {
-    background-color: #ffffff; /* White */
-    color: #555555;
+    background-color: #474e5d; /* White */
+    color: white;
 }
 .bg-4 {
     background-color: #2f2f2f; /* Black Gray */
     color: #fff;
 }
+/* .my-carousel{
+    background-color: #8d8bfd;
+} */
 .container-fluid {
     padding-top: 70px;
     padding-bottom: 70px;
@@ -44,5 +62,8 @@ p {
   
 .carousel-inner img {
     margin: auto;
+}
+.jumbotron{
+    background-color: #dc143c;
 }
  
