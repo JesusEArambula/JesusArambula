@@ -1,8 +1,16 @@
 body {
-    font: 20px Montserrat, sans-serif;
+    font: 20px, "Plus Jakatra Sans", sans-serif;
     line-height: 1.8;
     color: #f5f6f7;
 }
+
+.plus-jakarta-sans-400 {
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
 .column {
     /* text-align: justify; */
     padding-left: 10%;
@@ -79,5 +87,11 @@ p {
 }
 .jumbotron{
     background-color: #dc143c;
+}
+
+.hobby-image {
+    height: 10vw;
+    width: 10vw;
+    object-fit: scale-down;
 }
  
